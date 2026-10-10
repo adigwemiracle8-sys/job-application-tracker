@@ -1,0 +1,14 @@
+# Editor settings
+.vscode/
+
+# Local database and environment files
+backend/job_tracker.db
+.env
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Node build and dependency files
+node_modules/
+dist/
