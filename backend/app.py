@@ -152,6 +152,6 @@ def create_job():
     finally:
         connection.close()
 
+init_db()
 if __name__ == '__main__':
-    init_db()
     app.run()
