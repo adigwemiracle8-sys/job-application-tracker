@@ -208,7 +208,7 @@ function Dashboard() {
 
   return (
     <div className="dashboard">
-
+     <div className="dashboard-content">
       <header className="dashboard-header">
         <div className="header-text">
           <h1>Job Application Tracker</h1>
@@ -363,7 +363,7 @@ function Dashboard() {
         </div>
       </section>
 
-      <section>
+      <section className="applications-panel">
         <h2 className="section-title">Job Applications</h2>
 
         <div className="search-filter">
@@ -418,6 +418,7 @@ function Dashboard() {
 
       </section>
 
+    </div>
     </div>
   )
 }
